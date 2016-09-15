@@ -86,11 +86,11 @@ Memory is shared between a Hyper-V host and the virtual machine running on the h
 A virtual hard drive provides storage for a virtual machine similar to a physical hard drive. A virtual hard drive is required so that you can install an operating system on the virtual machine.</br></br>
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/new_vhd_upd.png)
 
-9. On the Installation Options wizard, select Install an operating system from a bootable image file and then select an operating system .iso file. Click Next once completed.</br></br>
+9. On the Installation Options wizard, select Install an operating system from a bootable image file and then select an operating system .iso file. Click Next once completed.</br>
 When creating a virtual machine, you can configure some operating system installation options. The three options available are:</br>
-* Install an operating system later – this option makes no additional modification to the virtual machine.
-* Install an operating system from a bootable image file – this is similar to inserting a CD into the physical CD-ROM drive of a physical computer. To configure this option, select a .iso image. This image will be mounted to the virtual CD-ROM drive of the virtual machine. The boot order of the virtual machine is changed to boot first from the CD-ROM drive.
-* Install an operating system from a network-based installation server – This option is not available unless you have connected the virtual machine to a network switch. In this configuration, the virtual machine attempts to boot from the network.
+- Install an operating system later – this option makes no additional modification to the virtual machine.
+- Install an operating system from a bootable image file – this is similar to inserting a CD into the physical CD-ROM drive of a physical computer. To configure this option, select a .iso image. This image will be mounted to the virtual CD-ROM drive of the virtual machine. The boot order of the virtual machine is changed to boot first from the CD-ROM drive.
+- Install an operating system from a network-based installation server – This option is not available unless you have connected the virtual machine to a network switch. In this configuration, the virtual machine attempts to boot from the network.
 
 10. Review the virtual machine details and click Finish to complete the virtual machine creation.
 
