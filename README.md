@@ -17,6 +17,7 @@ Ontwikkelstraat met release management.
 * [Install TFS](#)</br>
 * [Create TFS Build VM](#)</br>
 * [Create TFS Release Management VM](#)
+* [Create TFS Test Management VM](#)
 
 
 
