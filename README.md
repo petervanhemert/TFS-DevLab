@@ -8,8 +8,8 @@ modified: 2016 Sept 15
 # TFS-DevLab
 Ontwikkelstraat met release management.
 
-[Install Hyper-V on windows 10](#install Hyper-V on windows 10)
-[Create a Virtual Switch.](#create a Virtual Switch.)
+[Install Hyper-V on windows 10](#install-Hyper-V-on-windows-10)
+[Create a Virtual Switch.](#create-a-Virtual-Switch.)
 [Create a Virtual Machine with Hyper-V Manager.](#create a Virtual Machine with Hyper-V Manager.)
 [Install Hyper-V on windows 10](#install Hyper-V on windows 10)
 
