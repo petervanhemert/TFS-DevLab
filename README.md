@@ -24,7 +24,7 @@ Ontwikkelstraat met release management.
 
 ---
 
-Install Hyper-V on windows 10
+Install Hyper-V on windows 10  [Top](#tfs-devlab)
 -------------
 1. Right click on the Windows button and select ‘Programs and Features’.
 
@@ -36,7 +36,7 @@ Install Hyper-V on windows 10
 
 ---
 
-Create a Virtual Switch.
+Create a Virtual Switch.  [Top](#tfs-devlab)
 ------------------------
 Before you create a virtual machine in Hyper-V, you may want to provide a way for this virtual machine to connect to a physical network. Hyper-V includes software-based networking technology that allows a virtual machine's network card to connect to a virtual switch, providing network connectivity. Each virtual switch created in Hyper-V can be configured with one of three connection types:
 
@@ -72,7 +72,7 @@ This exercise walks through how to create an external virtual switch using the H
 
 ---
 
-Create a Virtual Machine with Hyper-V Manager.
+Create a Virtual Machine with Hyper-V Manager.  [Top](#tfs-devlab)
 ----------------------------------------------
 
 These steps walk through how to manually create a virtual machine and deploy an operating system to this virtual machine.
@@ -108,7 +108,8 @@ When creating a virtual machine, you can configure some operating system install
 
 10. Review the virtual machine details and click Finish to complete the virtual machine creation.
 
-
+Create Domain Controller.   [Top](#tfs-devlab)
+------------------------
 
 
 
