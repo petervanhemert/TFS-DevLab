@@ -12,7 +12,7 @@ Ontwikkelstraat met release management.
 
 [Create a Virtual Switch.](#create-a-virtual-switch)</br>
 
-[Create a Virtual Machine with Hyper-V Manager.](#create-a-virtual-machine-with-hyper--v-manager)</br>
+[Create a Virtual Machine with Hyper-V Manager.](#create-a-virtual-machine-with-hyper-v-manager)</br>
 [Install Hyper-V on windows 10](#install Hyper-V on windows 10)
 
 ---
