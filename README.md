@@ -1,16 +1,14 @@
-Solarized
-=========
 
 # TFS-DevLab
 Ontwikkelstraat met release management
 ## Install Hyper-V on windows 10
-* Right click on the Windows button and select ‘Programs and Features’.
+1. Right click on the Windows button and select ‘Programs and Features’.
 
-* Select Turn Windows Features on or off.
+2. Select Turn Windows Features on or off.
 
-* Select Hyper-V and click OK.
+3. Select Hyper-V and click OK.
  
-[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)]
+[![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)]
 
 
 ---
