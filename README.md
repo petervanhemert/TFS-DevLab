@@ -117,31 +117,43 @@ When creating a virtual machine, you can configure some operating system install
 Create Domain Controller   
 ------------------------
 
+hoi
+
 ---
 
 <sup>[GoTo Top](#tfs-devlab)</sup>
 Join VM to Domain Controller
 ----------------------------
 
+hoi
+
 ---
 
 Install TFS
 -----------
+
+hoi
 
 ---
 
 Create TFS Build VM
 -------------------
 
+hoi
+
 ---
 
 Create TFS Release Management VM
 --------------------------------
 
+hoi
+
 ---
 
 Create TFS Test Management VM
 -----------------------------
+
+hoi 
 
 ---
 
