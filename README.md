@@ -1,3 +1,6 @@
+Solarized
+=========
+
 # TFS-DevLab
 Ontwikkelstraat met release management
 ## Install Hyper-V on windows 10
