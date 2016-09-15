@@ -37,6 +37,7 @@ Install Hyper-V on windows 10
 
 ---
 <sup>[GoTo Top](#tfs-devlab)</sup>
+
 Create a Virtual Switch.  
 ------------------------
 Before you create a virtual machine in Hyper-V, you may want to provide a way for this virtual machine to connect to a physical network. Hyper-V includes software-based networking technology that allows a virtual machine's network card to connect to a virtual switch, providing network connectivity. Each virtual switch created in Hyper-V can be configured with one of three connection types:
