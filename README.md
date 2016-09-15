@@ -12,12 +12,7 @@ Ontwikkelstraat met release management.
 * [Install Hyper-V on windows 10](#install-hyper-v-on-windows-10)</br>
 * [Create a Virtual Switch.](#create-a-virtual-switch)</br>
 * [Create a Virtual Machine with Hyper-V Manager.](#create-a-virtual-machine-with-hyper-v-manager)</br>
-* [Create Domain Controller](#Create-Domain-Controller)</br>
-* [Join VM to Domain Controller](#Join-VM-to-Domain-Controller)</br>
-* [Install TFS](#Install-TFS)</br>
-* [Create TFS Build VM](#Create-TFS-Build-VM)</br>
-* [Create TFS Release Management VM](#Create-TFS-Release-Management-VM)
-* [Create TFS Test Management VM](#Create-TFS-Test-Management-VM)
+
 
 
 
