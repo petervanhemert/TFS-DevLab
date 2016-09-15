@@ -16,6 +16,7 @@ Ontwikkelstraat met release management.
 * [Install TFS](#)</br>
 * [Create TFS Build VM](#)</br>
 * [Create TFS Release Management VM](#)
+
 ---
 
 Install Hyper-V on windows 10
