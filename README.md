@@ -48,15 +48,13 @@ This exercise walks through how to create an external virtual switch using the H
 
 7. Under ‘Connection Type’, ensure that External Network has been selected.
 
-8. Select the physical network card to be paired with the new virtual switch. This is the network card that is physically connected to the network.
-
+8. Select the physical network card to be paired with the new virtual switch. This is the network card that is physically connected to the network. 
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
-
 9. Select Apply to create the virtual switch. At this point you will most likely see the following message. Click Yes to continue.
-
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
-
 10. Select OK to close the Virtual Switch Manager Window.
+
+
 
 
 
