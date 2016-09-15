@@ -9,7 +9,7 @@ Install Hyper-V on windows 10
 
 3. Select Hyper-V and click OK.
  
-[!(https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)]
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
 
 
 Download
