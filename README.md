@@ -63,8 +63,6 @@ Create a Virtual Machine with Hyper-V Manager.
 
 These steps walk through how to manually create a virtual machine and deploy an operating system to this virtual machine.
 
-
-
 1. In Hyper-V Manager, click Action > New > Virtual Machine to bring up the New Virtual Machine Wizard.
 
 2. Review the ‘Before You Begin’ content and click Next.
@@ -72,16 +70,16 @@ These steps walk through how to manually create a virtual machine and deploy an 
 3. Give the virtual machine a name.</br>
 ``Note: This is the name Hyper-V uses for the virtual machine, not the computer name given to the guest operating system that will be deployed inside the virtual machine.``
 
+4. Choose a location where the virtual machine files will be stored such as c:\virtualmachine. You can also accept the default location. Click Next when done.</br></br>
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/new_vm_upd.png)
 
-4. Choose a location where the virtual machine files will be stored such as c:\virtualmachine. You can also accept the default location. Click Next when done.
-5. 
-
-Select a generation for the machine and click Next.
+5. Select a generation for the machine and click Next.
 
 Generation 2 virtual machines were introduced with Windows Server 2012 R2 and provide a simplified virtual hardware model and some additional functionality. You can only install a 64-bit operating system on a Generation 2 virtual machine. For more information on Generation 2 virtual machines, see the Generation 2 Virtual Machine Overview.
 
-If the new virtual machine is configured as Generation 2 and will be running a Linux distribution, secure boot will need to be disabled. For more information on secure boot, see Secure Boot.
-Select 2048 MB for the Startup Memory value and leave Use Dynamic Memory selected. Click the Next button.
+''If the new virtual machine is configured as Generation 2 and will be running a Linux distribution, secure boot will need to be disabled. For more information on secure boot, see Secure Boot.''
+
+6. Select 2048 MB for the Startup Memory value and leave Use Dynamic Memory selected. Click the Next button.
 
 Memory is shared between a Hyper-V host and the virtual machine running on the host. The number of virtual machines that can run on a single host is in part dependent on available memory. A virtual machine can also be configured to use Dynamic Memory. When enabled, dynamic memory reclaims unused memory from the running virtual machine. This allows more virtual machines to run on the host. For more information on Dynamic Memory, see the Hyper-V Dynamic Memory Overview.
 
@@ -89,7 +87,8 @@ On the Configure Networking wizard, select a virtual switch for the virtual mach
 
 Give the virtual hard drive a name, select a location or keep the default, and finally specify a size. Click Next when ready.
 
-A virtual hard drive provides storage for a virtual machine similar to a physical hard drive. A virtual hard drive is required so that you can install an operating system on the virtual machine.
+A virtual hard drive provides storage for a virtual machine similar to a physical hard drive. A virtual hard drive is required so that you can install an operating system on the virtual machine.</br></br>
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/new_vhd_upd.png)
 
 
 
