@@ -72,10 +72,10 @@ This exercise walks through how to create an external virtual switch using the H
 
 ---
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
 Create a Virtual Machine with Hyper-V Manager
 ----------------------------------------------
+
+<sup>[GoTo Top](#tfs-devlab)</sup>
 
 These steps walk through how to manually create a virtual machine and deploy an operating system to this virtual machine.
 
@@ -112,18 +112,19 @@ When creating a virtual machine, you can configure some operating system install
 
 ---
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
 Create Domain Controller
 ------------------------
+
+<sup>[GoTo Top](#tfs-devlab)</sup>
 
 hoi
 
 ---
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
 Join VM to Domain Controller
 ----------------------------
+
+<sup>[GoTo Top](#tfs-devlab)</sup>
 
 hoi
 
@@ -132,12 +133,16 @@ hoi
 Install TFS
 -----------
 
+<sup>[GoTo Top](#tfs-devlab)</sup>
+
 hoi
 
 ---
 
 Create TFS Build VM
 -------------------
+
+<sup>[GoTo Top](#tfs-devlab)</sup>
 
 hoi
 
@@ -146,6 +151,8 @@ hoi
 Create TFS Release Management VM
 --------------------------------
 
+<sup>[GoTo Top](#tfs-devlab)</sup>
+
 hoi
 
 ---
@@ -153,22 +160,24 @@ hoi
 Create TFS Test Management VM
 -----------------------------
 
+<sup>[GoTo Top](#tfs-devlab)</sup>
+
 hoi 
 
 ---
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
 13
 --
 
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
 14 En
 -----
 
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi 2
 
 ---
