@@ -71,12 +71,7 @@ These steps walk through how to manually create a virtual machine and deploy an 
 
 2. Review the ‘Before You Begin’ content and click Next.
 
-3. Give the virtual machine a name.
-
-    SOLARIZED HEX     16/8 TERMCOL  XTERM/HEX   L*A*B      RGB         HSB
-    --------- ------- ---- -------  ----------- ---------- ----------- -----------
-    base03    #002b36  8/4 brblack  234 #1c1c1c 15 -12 -12   0  43  54 193 100  21
-
+3. Give the virtual machine a name.</br>
 ``Note: This is the name Hyper-V uses for the virtual machine, not the computer name given to the guest operating system that will be deployed inside the virtual machine.``
 
 
