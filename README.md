@@ -9,7 +9,8 @@ Ontwikkelstraat met release management
 * Select Turn Windows Features on or off.
 
 * Select Hyper-V and click OK.
-[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)](#features)
+ 
+[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)]
 
 
 ---
