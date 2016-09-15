@@ -6,6 +6,7 @@ modified: 2016 Sept 15
 
 ---
 # TFS-DevLab
+------------
 Ontwikkelstraat met release management.
 
 * [Install Hyper-V on windows 10](#install-hyper-v-on-windows-10)</br>
@@ -16,6 +17,10 @@ Ontwikkelstraat met release management.
 * [Install TFS](#)</br>
 * [Create TFS Build VM](#)</br>
 * [Create TFS Release Management VM](#)
+
+
+
+* [Top](#tfs-devlab)
 
 ---
 
