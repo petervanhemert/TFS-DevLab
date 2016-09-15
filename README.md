@@ -1,4 +1,10 @@
+title: TFS-lab
+description: Ontwikkelstraat met release management
+author: Peter van Hemert
+created:  2016 Sept 15
+modified: 2016 Sept 15
 
+---
 # TFS-DevLab
 Ontwikkelstraat met release management.
 
@@ -15,13 +21,9 @@ Install Hyper-V on windows 10
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
 
 ---
-title: Solarized
-description: Precision colors for machines and people
-author: Ethan Schoonover
-tags: test, testing, test123
-colors: light yellow
-created:  2011 Mar 15
-modified: 2011 Apr 16
+
+Create Switch.
+--------------
 
 ---
 
