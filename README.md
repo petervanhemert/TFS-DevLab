@@ -24,9 +24,9 @@ Ontwikkelstraat met release management.
 
 ---
 
-<sup style="text-align: center;">[Top](#tfs-devlab)</sup>
+<sup style="fload: right;">[Top](#tfs-devlab)</sup>
 
-<p style="text-align: center;">[Top](#tfs-devlab)</p>
+<p style="fload: right;">[Top](#tfs-devlab)</p>
 
 Install Hyper-V on windows 10   
 -------------
