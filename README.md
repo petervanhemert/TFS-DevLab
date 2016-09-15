@@ -21,8 +21,7 @@ Ontwikkelstraat met release management.
 Install Hyper-V on windows 10   
 -----------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 1. Right click on the Windows button and select ‘Programs and Features’.
 
 2. Select Turn Windows Features on or off.
@@ -36,8 +35,7 @@ Install Hyper-V on windows 10
 Create a Virtual Switch
 -----------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 Before you create a virtual machine in Hyper-V, you may want to provide a way for this virtual machine to connect to a physical network. Hyper-V includes software-based networking technology that allows a virtual machine's network card to connect to a virtual switch, providing network connectivity. Each virtual switch created in Hyper-V can be configured with one of three connection types:
 
 * External Network – the virtual switch is connected to a physical network adapter which provides connectivity between the physical network, the Hyper-V host, and the virtual machine. In this configuration, you can also enable or disable the host's ability to communicate over the physically connected network card. This can be useful to isolate only VM traffic to a particular physical network card.
@@ -75,8 +73,7 @@ This exercise walks through how to create an external virtual switch using the H
 Create a Virtual Machine with Hyper-V Manager
 ----------------------------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 These steps walk through how to manually create a virtual machine and deploy an operating system to this virtual machine.
 
 1. In Hyper-V Manager, click Action > New > Virtual Machine to bring up the New Virtual Machine Wizard.
@@ -115,8 +112,7 @@ When creating a virtual machine, you can configure some operating system install
 Create Domain Controller
 ------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
@@ -124,8 +120,7 @@ hoi
 Join VM to Domain Controller
 ----------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
@@ -133,8 +128,7 @@ hoi
 Install TFS
 -----------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
@@ -142,8 +136,7 @@ hoi
 Create TFS Build VM
 -------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
@@ -151,8 +144,7 @@ hoi
 Create TFS Release Management VM
 --------------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi
 
 ---
@@ -160,8 +152,7 @@ hoi
 Create TFS Test Management VM
 -----------------------------
 
-<sup>[GoTo Top](#tfs-devlab)</sup>
-
+<sup>[GoTo Top](#tfs-devlab)</sup></br>
 hoi 
 
 ---
