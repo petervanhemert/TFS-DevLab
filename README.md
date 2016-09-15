@@ -114,7 +114,7 @@ When creating a virtual machine, you can configure some operating system install
 
 <sup>[GoTo Top](#tfs-devlab)</sup>
 
-Create Domain Controller   
+Create Domain Controller
 ------------------------
 
 hoi
