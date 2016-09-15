@@ -24,7 +24,7 @@ Ontwikkelstraat met release management.
 
 ---
 
-Install Hyper-V on windows 10   <sup>[Top](#tfs-devlab)</sup>
+Install Hyper-V on windows 10   <sup style="text-align: right;">[Top](#tfs-devlab)</sup>
 -------------
 1. Right click on the Windows button and select ‘Programs and Features’.
 
