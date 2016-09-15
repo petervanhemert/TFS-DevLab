@@ -32,6 +32,35 @@ Before you create a virtual machine in Hyper-V, you may want to provide a way fo
 
 * Private Network – the virtual switch is not connected to a physical network adapter and connectivity does not exist between the Hyper-V host and any virtual machines connected to this switch.
 
+This exercise walks through how to create an external virtual switch using the Hyper-V Manager. When completed, your Hyper-V host contains a virtual switch that can be used to connect virtual machines to a physical network.
+
+1. Open up Hyper-V Manager.
+
+2. Right-click on the name of the Hyper-V host and select Virtual Switch Manager...
+
+3. Under ‘Virtual Switches’, select New virtual network switch.
+
+4. Under ‘What type of virtual switch do you want to create?’, select External.
+
+5. Select the Create Virtual Switch button.
+
+6. Under ‘Virtual Switch Properties’, give the new switch a name such as External VM Switch.
+
+7. Under ‘Connection Type’, ensure that External Network has been selected.
+
+8. Select the physical network card to be paired with the new virtual switch. This is the network card that is physically connected to the network.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
+
+9. Select Apply to create the virtual switch. At this point you will most likely see the following message. Click Yes to continue.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
+
+10. Select OK to close the Virtual Switch Manager Window.
+
+
+
+
 ---
 
 Solarized
