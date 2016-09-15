@@ -15,7 +15,7 @@ Ontwikkelstraat met release management.
 * [Join VM to Domain Controllerr](#)</br>
 * [Install TFS](#)</br>
 * [Create TFS Build VM](#)</br>
-* [Create TFS Release Management VM](#)</br>
+* [Create TFS Release Management VM](#)
 ---
 
 Install Hyper-V on windows 10
