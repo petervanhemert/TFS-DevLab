@@ -8,7 +8,7 @@ modified: 2016 Sept 15
 # TFS-DevLab
 Ontwikkelstraat met release management.
 
-[Usage & Development](#usage-development)
+[Usage](#usage)
 
 ---
 
@@ -460,8 +460,8 @@ matched in sRGB space.
     cyan      #2aa198  6/6 cyan      37 #00afaf 60 -35 -05  42 161 152 175  74  63
     green     #859900  2/2 green     64 #5f8700 60 -20  65 133 153   0  68 100  60
 
-Usage & Development
--------------------
+Usage
+-----
 
 If you are considering developing a port for Solarized, please see also the
 [developer notes](http://ethanschoonover.com/solarized/DEVELOPERS) for
