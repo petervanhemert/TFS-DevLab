@@ -50,11 +50,11 @@ This exercise walks through how to create an external virtual switch using the H
 
 8. Select the physical network card to be paired with the new virtual switch. This is the network card that is physically connected to the network. 
 
-9. ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
+9. ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/newswitch_upd.png)
 
 10. Select Apply to create the virtual switch. At this point you will most likely see the following message. Click Yes to continue.
 
-11. ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)
+11. ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/pen_changes_upd.png)
 
 12. Select OK to close the Virtual Switch Manager Window.
 
