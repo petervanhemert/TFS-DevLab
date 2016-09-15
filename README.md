@@ -11,6 +11,9 @@ Ontwikkelstraat met release management
 [![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)]
 
 
+Download
+--------
+
 ---
 title: Solarized
 description: Precision colors for machines and people
