@@ -9,7 +9,7 @@ Ontwikkelstraat met release management
 * Select Turn Windows Features on or off.
 
 * Select Hyper-V and click OK.
-
+[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)](#features)
 
 
 ---
@@ -28,7 +28,7 @@ Solarized
 
 ## Precision colors for machines and people
 
-[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/enable_role_upd.png)](#features)
+[![solarized dualmode](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/enable_role_Hyper-V.png)](#features)
 
 Solarized is a sixteen color palette (eight monotones, eight accent colors)
 designed for use with terminal and gui applications. It has several [unique
