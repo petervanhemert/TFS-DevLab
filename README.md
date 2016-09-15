@@ -18,7 +18,7 @@ Ontwikkelstraat met release management.
 * [Create TFS Build VM](#Create-TFS-Build-VM)</br>
 * [Create TFS Release Management VM](#Create-TFS-Release-Management-VM)
 * [Create TFS Test Management VM](#Create-TFS-Test-Management-VM)
-
+* [Create TFS Test Management VM](#13)
 
 ---
 
@@ -142,3 +142,8 @@ Create TFS Test Management VM
 -----------------------------
 
 ---
+
+13
+--
+
+hoi
