@@ -8,6 +8,8 @@ modified: 2016 Sept 15
 # TFS-DevLab
 Ontwikkelstraat met release management.
 
+[Usage & Development](#usage-development)
+
 ---
 
 Install Hyper-V on windows 10
