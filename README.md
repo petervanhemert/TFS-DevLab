@@ -112,23 +112,36 @@ When creating a virtual machine, you can configure some operating system install
 
 10. Review the virtual machine details and click Finish to complete the virtual machine creation.
 
+---
+
 <sup>[GoTo Top](#tfs-devlab)</sup>
 Create Domain Controller.   
 ------------------------
 
+---
+
 <sup>[GoTo Top](#tfs-devlab)</sup>
+Join VM to Domain Controller
+----------------------------
 
-Join VM to Domain Controller.
------------------------------
+---
 
-Install TFS.
-------------
+Install TFS
+-----------
 
-Create TFS Build VM.
---------------------
+---
+
+Create TFS Build VM
+-------------------
+
+---
 
 Create TFS Release Management VM
 --------------------------------
 
+---
+
 Create TFS Test Management VM
 -----------------------------
+
+---
