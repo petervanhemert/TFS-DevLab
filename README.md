@@ -24,7 +24,10 @@ Ontwikkelstraat met release management.
 
 ---
 
-<sup style="text-align: right;">[Top](#tfs-devlab)</sup>
+<sup style="text-align: center;">[Top](#tfs-devlab)</sup>
+
+<p style="text-align: center;">[Top](#tfs-devlab)</p>
+
 Install Hyper-V on windows 10   
 -------------
 1. Right click on the Windows button and select ‘Programs and Features’.
