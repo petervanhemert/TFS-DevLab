@@ -65,18 +65,18 @@ Create a Virtual Machine with Hyper-V Manager.
 
 These steps walk through how to manually create a virtual machine and deploy an operating system to this virtual machine.
 
-``There is a literal backtick (`) here.``
+
 
 1. In Hyper-V Manager, click Action > New > Virtual Machine to bring up the New Virtual Machine Wizard.
 
 2. Review the ‘Before You Begin’ content and click Next.
 
 3. Give the virtual machine a name.
-
-Note: This is the name Hyper-V uses for the virtual machine, not the computer name given to the guest operating system that will be deployed inside the virtual machine.
-Choose a location where the virtual machine files will be stored such as c:\virtualmachine. You can also accept the default location. Click Next when done.
+``Note: This is the name Hyper-V uses for the virtual machine, not the computer name given to the guest operating system that will be deployed inside the virtual machine.``
 
 
+4. Choose a location where the virtual machine files will be stored such as c:\virtualmachine. You can also accept the default location. Click Next when done.
+5. 
 
 Select a generation for the machine and click Next.
 
