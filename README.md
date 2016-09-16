@@ -134,7 +134,7 @@ Let's assign a static IP to the network card as you do not want the servers IP c
 
 Open a command prompt and type "IPconfig". The resulting output will be  like below.
 
-![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig.png)
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig.PNG)
 
 The ipv4 address, subnet mask and the default gateway are the most important:
 * Refer back to your router information and check the scope of address that it hands out: For instance Linksys routers hands out normally 192.168.1.100 to 192.168.1.150 (50 addresses). This is important to be able to assign an IP to your new server that is still on the network defined by the subnet mask but outside of the client scope, I am choosing 192.168.1.11 for my new domain controller for example.
