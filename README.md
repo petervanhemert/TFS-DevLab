@@ -247,7 +247,36 @@ Join VM to Domain Controller
 ----------------------------
 
 <sup>[GoTo Top](#tfs-devlab)</sup></br>
-hoi
+Create a new Virtual Machine.
+Before joining the new server/computer to the domain, you need to give it a unique name to identify it on the network. You will also need to setup the Preferred DNS server to the IP Address of the server.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipServer.png)
+
+After you've done that follow below steps:
+
+From the left side pane, click on Local Server, then click the blu colored Computer name or Workgroup.
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/join01.png)
+
+The System Properties will open, under the Computer Name tab, you can see the full computer name and Workgroup name the computer by default is joined to. To Join a domain, click Change
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/join02.png)
+
+Under Member of, select Domain and type the domain name you want to join, in my case tfs.com. Then click OK
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/join03.png)
+
+You will be asked to type the credentials of a username that has the required permission to add computers to the domain. I'm using a domain admin user.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/join04.png)
+
+If you entered correct username/password with required permissions, then you will successfully join the PC to the domain. click OK
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/join05.png)
+You will be prompted to restart the computer to apply changes, click OK
+You will get back to the System Properties window, as you notice, there is a small notification message that you need to restart your machine so that changes take effect. Click Close
+Finally, you will be presented again with a dialog box to restart your machine, click Restart Now to reboot.
+
+done....
+
 
 ---
 
