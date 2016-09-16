@@ -13,6 +13,7 @@ Ontwikkelstraat met release management.
 * [Create a Virtual Switch.](#create-a-virtual-switch)</br>
 * [Create a Virtual Machine with Hyper-V Manager.](#create-a-virtual-machine-with-hyper-v-manager)</br>
 * [Creating A Windows 2012R2 Domain Controller](#create-domain-controller)</br>
+* [Join VM to Domain Controller](#join-vm-to-domain-controller)
 * [13](#13)</br>
 * [14 En](#14-en)
 
