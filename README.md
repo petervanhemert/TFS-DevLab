@@ -123,6 +123,38 @@ Click on Computer Name (The Blue text) this screen will show up – Click Change
 
 Type in the name that you want for this domain controller in the screen that comes up like below.
 
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/changeName03.png)
+
+Click OK when done, and then close the screen behind – Reboot when it asks you to
+Login to windows when ready and when Server Manager comes back up, click on Local Server again and validate the Name change 
+
+Now let's validate that the internet is working so we can get some network settings written down. I went to www.bing.com and after the Internet Enhanced configuration prompts I was able to get to the internet.
+
+Let's assign a static IP to the network card as you do not want the servers IP changing on you.
+
+Open a command prompt and type "IPconfig". The resulting output will be  like below.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig.png)
+
+The ipv4 address, subnet mask and the default gateway are the most important:
+* Refer back to your router information and check the scope of address that it hands out: For instance Linksys routers hands out normally 192.168.1.100 to 192.168.1.150 (50 addresses). This is important to be able to assign an IP to your new server that is still on the network defined by the subnet mask but outside of the client scope, I am choosing 192.168.1.11 for my new domain controller for example.
+
+* Right click this icon ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/networksettingicone.png) on the taskbar and select "Open Network and Sharing Center"
+* Select the "Change adapter settings" on the left
+* Right click on your network adapter and select properties
+* On the screen that comes up click "Internet Protocol Version 4 (TCP/IPv4) and then click the Properties button.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig02.png)
+
+* Make your ip settings match mine with the exception of the IP address (If you selected another one) , Gateway depending on your routers config, and DNS most likely this will be your router if not refer back to the ipconfig /all output and have your dns settings match that. 
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig03.png)
+Once that's done lets validate that the internet still works
+
+* Download and install all windows updates for the server – to do that right click the little flag icon by the clock and open the action center.
+ On the left there will be a Windows Update link, click that and turn on Automatic Updating.
+ Check for updates – this will take a bit to gather all of the updates that may be waiting for you.
+ Go ahead and install any updates found and let the server reboot if it needs to. With the operating system being 2012 R2 there may not be a lot of updates.
 
 
 ---
