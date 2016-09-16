@@ -118,9 +118,10 @@ Next, after you powered up the Server we will set the Password.</br>
 Click on the Server's Name (The Blue text) this screen will show up – Click Change``
 
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/changeName01.PNG)
+
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/changeName02.PNG)
 
-Type in the name that you want for this domain controller in the screen that comes up like below
+Type in the name that you want for this domain controller in the screen that comes up like below.
 
 
 
