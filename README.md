@@ -208,7 +208,7 @@ In the top right corner, a warning label will now appear next to the task detail
 
 The Active Directory Domain Services Configuration Wizard will begin. In the example shown below, I am adding a new forest.
 
-![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC10.png)
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC10.PNG)
 
 Since the new server being deployed is going to replace one of the primary domain controllers, both DNS and Global Catalog were selected. Additionally, I used a Directory Services Restore Mode (DSRM) password that did not match the domain administrator. Although this password can match the domain administrator, I chose not to use the same password for security purposes. Make sure this password is documented as this password can help gain access to an environment in the event that all domain administrator accounts lose access.
 
