@@ -154,6 +154,41 @@ The confirmation page will display all components that will be reinstalled. Note
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC08.png)
 
 Once the installation has completed, this machine can be promoted to a domain controller.
+In the top right corner, a warning label will now appear next to the task details icon. Click on this icon and select Promote this server to a domain controller.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC09.png)
+
+The Active Directory Domain Services Configuration Wizard will begin. In the example shown below, I am adding a new forest.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC10.png)
+
+Since the new server being deployed is going to replace one of the primary domain controllers, both DNS and Global Catalog were selected. Additionally, I used a Directory Services Restore Mode (DSRM) password that did not match the domain administrator. Although this password can match the domain administrator, I chose not to use the same password for security purposes. Make sure this password is documented as this password can help gain access to an environment in the event that all domain administrator accounts lose access.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC11.png)
+
+Since I was not using a parent zone, I got the following warning. In my case, I can ignore the warning as this will not affect whether the DNS feature gets installed.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC12.png)
+
+Additional options. The NetBIOS domain name is set. Click next.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC13.png)
+
+All the AD DS database, log files and SYSVOL data was left at their default locations.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC14.png)
+
+The next window will be a summary of all selected options. If anything needs to be adjusted, now would be the best time to do it. 
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC15.png)
+
+Windows will perform a prerequisites check. If the user account used to promote the server does not have sufficient privileges (Schema Admin or Enterprise admin), then the installation will not be able to be completed. Either log onto another account that has the correct permissions or grant those permissions to the desired user and start over from the beginning of the promotion wizard. 
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC16.png)
+
+Once the installation has been completed and the wizard has been closed out, the AD DS will reboot.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC17.png)
 
 
 
