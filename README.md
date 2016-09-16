@@ -109,7 +109,7 @@ When creating a virtual machine, you can configure some operating system install
 
 10. Review the virtual machine details and click Finish to complete the virtual machine creation.
 
-*Name change.*
+**Name change.**
 
 Next, after you powered up the Server we will set the Password.</br>
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/PasswordSettings.png)
