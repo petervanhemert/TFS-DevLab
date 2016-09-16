@@ -148,7 +148,7 @@ The ipv4 address, subnet mask and the default gateway are the most important:
 
 * Make your ip settings match mine with the exception of the IP address (If you selected another one) , Gateway depending on your routers config, and DNS most likely this will be your router if not refer back to the ipconfig /all output and have your dns settings match that. 
 
-![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig03.png)
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipconfig03.PNG)
 Once that's done lets validate that the internet still works
 
 * Download and install all windows updates for the server – to do that right click the little flag icon by the clock and open the action center.
