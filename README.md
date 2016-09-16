@@ -115,7 +115,7 @@ Next, after you powered up the Server we will set the Password.</br>
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/PasswordSettings.png)
 
 ``NOTE: there are a few things we need to change here – first being Computer name (Nobody will remember that name if they needed to)
-Click on the Server's Name (The Blue text) this screen will show up – Click Change``
+Click on Computer Name (The Blue text) this screen will show up – Click Change``
 
 ![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/changeName01.png)
 
