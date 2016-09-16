@@ -250,7 +250,7 @@ Join VM to Domain Controller
 Create a new Virtual Machine.
 Before joining the new server/computer to the domain, you need to give it a unique name to identify it on the network. You will also need to setup the Preferred DNS server to the IP Address of the server.
 
-![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipServer.png)
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/ipServer.PNG)
 
 After you've done that follow below steps:
 
