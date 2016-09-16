@@ -12,7 +12,7 @@ Ontwikkelstraat met release management.
 * [Install Hyper-V on windows 10](#install-hyper-v-on-windows-10)</br>
 * [Create a Virtual Switch.](#create-a-virtual-switch)</br>
 * [Create a Virtual Machine with Hyper-V Manager.](#create-a-virtual-machine-with-hyper-v-manager)</br>
-* [Create Domain Controller](#create-domain-controller)</br>
+* [Creating A Windows 2012R2 Domain Controller](#create-domain-controller)</br>
 * [13](#13)</br>
 * [14 En](#14-en)
 
@@ -115,7 +115,47 @@ Create Domain Controller
 ------------------------
 
 <sup>[GoTo Top](#tfs-devlab)</sup></br>
-hoi
+Adding the Windows 2012R2 Server Domain Services Role.
+
+Once the Server Manager has been opened, click on Manage and select Add Roles and Features.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC.png)
+
+Once the Add Roles and Features Wizard has started up, select Next.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC02.png)
+
+On the next page, the default settings can be used.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC03.png)
+
+Under server selection, the default settings should be selecting the domain control.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC04.png)
+
+On the Server Roles page, select Active Directory Domain Services.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC05.png)
+
+Windows will prompt for any additional features that will be needed.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC06.png)
+
+The next window will prompt with a few additional notes regarding best practices. Note that the Active Directory Domain Services Role will install the following in a new environment:
+* DNS Services
+* DFS Namespaces Services
+* DFS Replication Services- Replication Services
+* Group Policy Management
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC07.png)
+
+The confirmation page will display all components that will be reinstalled. Note that on a new server, a reboot is not required to install the Active Directory Domain Services role.
+
+![](https://github.com/petervanhemert/TFS-DevLab/blob/master/Images/DC08.png)
+
+Once the installation has completed, this machine can be promoted to a domain controller.
+
+
 
 ---
 
